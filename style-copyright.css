@@ -1,0 +1,27 @@
+
+.copyright {
+	font-family: Times, serif;
+	font-size: 10px;
+	text-align: center;
+	width: 100%;
+	border: 0px solid #fff;
+	margin: 0px auto;
+	padding: 5px 0;
+	background-color: #ccc;
+}
+.copyright a {
+	text-decoration: none;
+}
+.copyright a:link {
+	color:#660;
+	text-decoration: none;
+}
+.copyright a:visited {
+	color:#993;
+	text-decoration: none;
+}
+.copyright a:hover {
+	color:#aa6;
+	background-color: #ccc;
+	text-decoration: underline;
+}

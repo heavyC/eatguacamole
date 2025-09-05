@@ -1,0 +1,50 @@
+body  {
+	font-family: Arial, Verdana, sans-serif;
+	background: #bcb; /* url(../images/page_background.jpg); */
+	margin: 0;
+	padding: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6, li {
+	margin: 1ex 1em;
+}
+h1 {
+	font-family: xImpact, Arial, Verdana, sans-serif;
+	color: #390;
+	text-align: center;
+	font-size: 28px;
+	font-style: italic;
+}
+#outerDiv {
+	width: 770px;
+	margin: 0px auto;	 /* no top/bottom margin, centered horizontally */
+	background: #fff; /* url(../images/banner.jpg) no-repeat;*/
+}
+.header {
+	width: 550px;
+	background: #fff;
+	border: 1px solid #fff;
+    text-align: center;
+	margin: 0 auto;
+}
+.footer {
+	width: 770;
+	background: #fff;
+	border: 1px solid #fff;
+	margin: 0 auto;
+}
+#logo  {
+    border: 0px solid #fff;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+#content  {
+    border: 0px solid #fff;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Times, serif;
+    font-size: 12px;
+    font-style: bold;
+}
