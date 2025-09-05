@@ -1,0 +1,4 @@
+<p><hr size="1" noshade /></p>
+<p class="clear" />
+<script language="javascript" type="text/javascript" src="http://www.geiser.net/guac/copyright.js"></script>
+</div> <!-- container -->

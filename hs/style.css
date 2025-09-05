@@ -1,0 +1,46 @@
+body {
+	color: #000;
+	background-color: #fff;
+	font-family: Times, serif;
+	font-size: 12pt;
+}
+
+#adminMenu a {
+	font-size: 10pt;
+}
+	
+#adminMenu a:link {
+	color:#000;
+	text-decoration: none;
+}
+#adminMenu a:visited {
+	color:#000;
+	text-decoration: none;
+}
+#adminMenu a:hover {
+	color:#000;
+	background-color:#7bf;
+	text-decoration: underline;
+}
+
+#adminMenu ul {
+	padding: 0;
+	margin: 0;
+}
+#adminMenu li {
+	float: left;
+	display: inline;
+	padding: 0 2px 0 2px;
+	margin: 1px;
+	list-style-type: none;
+	background-color: #7ff;
+	border: 1px solid black;
+	width: 160px;
+}
+
+p.clear {
+	clear: both;
+	height: 0;
+	margin: 0;
+	padding: 0;
+}

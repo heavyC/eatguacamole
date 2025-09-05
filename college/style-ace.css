@@ -1,0 +1,35 @@
+h1 {
+	font-family: Arial, Verdana, sans-serif;
+	color: #17b;
+	text-align: center;
+	font-size: 28px;
+	font-style: bold;
+}
+#outerDiv {
+	width: 770px;
+	margin: 0px auto; /* no top/bottom margin, centered horizontally */
+	background: #fff; /* url(../images/banner.jpg) no-repeat;*/
+}
+.header {
+	width: 550px;
+	background: #fff;
+	border: 1px solid #fff;
+	margin: 0 auto;
+}
+.content {
+	font-family: Arial, Verdana, sans-serif;
+	color: #17b;
+	text-align: center;
+}
+
+.footerDiv {
+	width: 770px;
+	font-size: 10px;
+	margin: 10px;
+}
+
+.footnoteDiv {
+	width: 770px;
+	font-size: 10px;
+	margin: 10px auto;
+}
