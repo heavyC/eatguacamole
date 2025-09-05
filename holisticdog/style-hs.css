@@ -1,0 +1,29 @@
+h1 {
+	font-family: Arial, Verdana, sans-serif;
+	color: #17b;
+	text-align: center;
+	font-size: 28px;
+	font-style: bold;
+}
+#outerDiv-hs {
+	width: 770px;
+	margin: 0px auto; /* no top/bottom margin, centered horizontally */
+	background: #ddd; /* url(../images/banner.jpg) no-repeat;*/
+	text-align: center;
+}
+.header-hs {
+	width: 770px;
+	background: #eee;
+	border: 0px solid #000;
+	margin: 0 auto;
+}
+.content-hs {
+	border: 0px;
+	background: #fff;
+}
+
+.footer-hs {
+	width: 770px;
+	font-size: 10px;
+	margin: 10px;
+}
