@@ -6,9 +6,7 @@
 	<title>Horse Spanish-Spanish Language Translator for Equestrian and Horse Professionals and Trainers</title>
 	<link rel="stylesheet" href="http://www.EatGuacamole.com/style.css" type="text/css" />
 	<link rel="stylesheet" href="style-hs.css" type="text/css" />
-	
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-
 	<meta name="description" content="Spanish Translator for equine words and phrases" />
 	<meta name="keywords" content="horse, Spanish, espanol, equine, horse spanish, english, translate, translator, caballo, espanol, veterinarian" />
 </head>
@@ -17,7 +15,7 @@
 	<div class="header-hs">
 		<h1>Horse Spanish</h1>
 		<div class="content-hs">
-			<table border="0">
+			<table>
 				<tr><td>
 				<a href="http://itunes.apple.com/app/horse-spanish/id377202869">
 				<img src="images/horse-spanish_logo.gif" width="175" height="175" border="0" alt="Horse Spanish"></a>
