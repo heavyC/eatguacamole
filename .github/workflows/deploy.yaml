@@ -20,4 +20,4 @@ jobs:
           aws-region: us-west-2 # Change to your bucket's region
 
       - name: Deploy to S3
-        run: aws s3 sync . s3://geiser.net --delete --exclude ".git/*" --exclude ".github/*"
+        run: aws s3 sync . s3://eatguacamole.com --delete --exclude ".git/*" --exclude ".github/*"
