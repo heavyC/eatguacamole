@@ -21,3 +21,5 @@ jobs:
 
       - name: Deploy to S3
         run: aws s3 sync . s3://eatguacamole.com --delete --exclude ".git/*" --exclude ".github/*"
+        # run: aws s3 sync . s3://eatguacamole.com --exclude ".git/*" --exclude ".github/*"
+  
