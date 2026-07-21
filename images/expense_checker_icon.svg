@@ -1,0 +1,13 @@
+<svg width="96" height="116" viewBox="0 0 96 116" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>ExpenseCheck icon</title>
+  <desc>Shield icon with receipt and checkmark for ExpenseCheck</desc>
+  <path d="M48 0 L96 14 L96 62 Q96 100 48 115 Q0 100 0 62 L0 14 Z" fill="#1a6ef5" opacity="0.1"/>
+  <path d="M48 0 L96 14 L96 62 Q96 100 48 115 Q0 100 0 62 L0 14 Z" fill="none" stroke="#1a6ef5" stroke-width="2.5"/>
+  <path d="M48 8 L88 20 L88 62 Q88 94 48 107 Q8 94 8 62 L8 20 Z" fill="none" stroke="#1a6ef5" stroke-width="1" opacity="0.25"/>
+  <rect x="28" y="30" width="40" height="48" rx="3" fill="none" stroke="#1a6ef5" stroke-width="2"/>
+  <line x1="34" y1="42" x2="62" y2="42" stroke="#1a6ef5" stroke-width="1.8"/>
+  <line x1="34" y1="53" x2="58" y2="53" stroke="#1a6ef5" stroke-width="1.8"/>
+  <line x1="34" y1="64" x2="56" y2="64" stroke="#1a6ef5" stroke-width="1.8"/>
+  <circle cx="70" cy="70" r="16" fill="#1a6ef5"/>
+  <path d="M62 70 L68 77 L79 60" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

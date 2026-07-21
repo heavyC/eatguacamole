@@ -1,0 +1,19 @@
+<svg width="320" height="380" viewBox="0 0 320 380" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>ExpenseCheck logo</title>
+  <desc>Shield logo with receipt and checkmark for ExpenseCheck policy compliance app</desc>
+  <g transform="translate(60, 10)">
+    <path d="M100 0 L200 30 L200 130 Q200 210 100 240 Q0 210 0 130 L0 30 Z" fill="#1a6ef5" opacity="0.1"/>
+    <path d="M100 0 L200 30 L200 130 Q200 210 100 240 Q0 210 0 130 L0 30 Z" fill="none" stroke="#1a6ef5" stroke-width="3"/>
+    <path d="M100 18 L182 43 L182 130 Q182 196 100 222 Q18 196 18 130 L18 43 Z" fill="none" stroke="#1a6ef5" stroke-width="1" opacity="0.3"/>
+    <rect x="62" y="68" width="76" height="90" rx="4" fill="none" stroke="#1a6ef5" stroke-width="2"/>
+    <line x1="74" y1="86" x2="126" y2="86" stroke="#1a6ef5" stroke-width="2"/>
+    <line x1="74" y1="100" x2="120" y2="100" stroke="#1a6ef5" stroke-width="2"/>
+    <line x1="74" y1="114" x2="114" y2="114" stroke="#1a6ef5" stroke-width="2"/>
+    <line x1="74" y1="128" x2="118" y2="128" stroke="#1a6ef5" stroke-width="2"/>
+    <line x1="74" y1="142" x2="126" y2="142" stroke="#1a6ef5" stroke-width="2" opacity="0.4"/>
+    <circle cx="148" cy="148" r="24" fill="#1a6ef5"/>
+    <path d="M137 148 L145 157 L161 136" fill="none" stroke="white" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="100" y="282" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="500" fill="#1a6ef5">ExpenseCheck</text>
+    <text x="100" y="306" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="400" fill="#6b7280" letter-spacing="2">POLICY COMPLIANCE</text>
+  </g>
+</svg>
