@@ -5,6 +5,10 @@ on:
     branches:
       - main  # Or your default branch name
 
+permission:
+  id-token: write
+  contents: read
+  
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -15,11 +19,17 @@ jobs:
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          role-to-assume: arn:aws:iam::831869585621:role/YOUR_ROLE_NAME
+          # aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          # aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-west-2 # Change to your bucket's region
 
       - name: Deploy to S3
         run: aws s3 sync . s3://eatguacamole.com --delete --exclude ".git/*" --exclude ".github/*"
         # run: aws s3 sync . s3://eatguacamole.com --exclude ".git/*" --exclude ".github/*"
   
+      - name: Invalidate CloudFront cache
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id E24K0R2K92NODH \
+            --paths "/*"
