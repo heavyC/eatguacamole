@@ -11,7 +11,7 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --bg: #121312;
+        --bg: #000000;
         --surface: #1b1d1a;
         --text: #ececec;
         --text-muted: #a3a3a3;
@@ -45,7 +45,11 @@ a {
     text-decoration: none;
 }
 
-a:hover { color: var(--accent-hover); text-decoration: underline; }
+a:hover { 
+    color: var(--accent-hover); 
+    text-decoration: underline;
+    /* text-transform: uppercase; */
+}
 
 a:focus-visible {
     outline: 2px solid var(--accent);
@@ -100,7 +104,8 @@ h1 {
 }
 
 @media (max-width: 480px) {
-    .identity-text { padding-right: 34%; }
+    .identity-text { padding-right: 0; }
+    .identity .logo { display: none; }
 }
 
 .intro {
